@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+  font-family: "Tajawal", sans-serif;
+}
+
+body {
+  height: 100vh;
+  direction: rtl;
+  background: linear-gradient(45deg, #240165, #05001c);
+  color: #fff;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Defualt */
+:root {
+  font-size: 11px;
+}
+
+/* Moblie */
+@media (min-width: 425px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  :root {
+    font-size: 14px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  :root {
+    font-size: 15px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  :root {
+    font-size: 16px;
+  }
+}
+/* By Me */
+@media (min-width: 1400px) {
+  .container {
+    width: 1350px;
+  }
+  :root {
+    font-size: 18px;
+  }
+}
+/* End Global Rules */
+
+.info h1 {
+  font-size: 6.25rem;
+  font-weight: 400;
+}
+.info h4 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+hr {
+  border-color: #5200e1;
+}
+.times {
+  height: 9.375rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 3.125rem 0;
+}
+.times > div {
+  background-color: #fff;
+  width: 12%;
+  height: 95%;
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.625rem 0.3125rem #0003;
+}
+.times div .name {
+  background: linear-gradient(45deg, #5709ee, #5c2793);
+  padding: 0.3125rem;
+  font-weight: 400;
+}
+
+.times div .time {
+  color: #000;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+}
+
+.times div .time h4 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+@media (max-width: 675px) {
+  body {
+    height: fit-content;
+    min-height: 100vh;
+  }
+  .times {
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 2rem 0;
+  }
+  .times > div {
+    width: 90px;
+    height: 125px;
+    margin: 12px;
+  }
+}
+.change-city {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.change-city select {
+  width: 15.625rem;
+  padding-right: 0.625rem;
+  font-size: 1.66rem;
+  border-radius: 1.25rem;
+  background: none;
+  color: #fff;
+}
+
+.change-city select option {
+  background-color: #333;
+}
+/* ====== */
+.copy-rihgt {
+  padding: 0.6rem 1rem;
+  margin: 2rem auto;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  background: #f3f3f3;
+  border-radius: 2rem;
+  color: #012e40;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
