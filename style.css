@@ -118,6 +118,10 @@ hr {
     height: fit-content;
     min-height: 100vh;
   }
+  .info h1 {
+    font-size: 4.25rem;
+      margin-top: 2rem;
+  }
   .times {
     flex-wrap: wrap;
     height: fit-content;
