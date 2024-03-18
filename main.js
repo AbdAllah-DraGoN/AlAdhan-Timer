@@ -45,7 +45,7 @@ function getPlayerTimesOfCity(cityName, countryName) {
     country: countryName,
   };
   axios
-    .get("http://api.aladhan.com/v1/timingsByCity", {
+    .get("https://api.aladhan.com/v1/timingsByCity", {
       params: params,
     })
     .then(function (response) {
